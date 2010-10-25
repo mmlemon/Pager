@@ -1,0 +1,389 @@
+TPager
+v7
+r0
+t281095781.891921
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Pager.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Info.plist Pager-Info.plist
+cCompileXIB /Users/mmlemon/Documents/develop/iPhone/Pager/MainWindow.xib
+cCompileXIB /Users/mmlemon/Documents/develop/iPhone/Pager/PagerViewController.xib
+cProcessPCH /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch.gch Pager_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/main.o /Users/mmlemon/Documents/develop/iPhone/Pager/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerAppDelegate.o /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerViewController.o /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/TCPSendClient.o /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager normal armv6
+cGenerateDSYMFile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app.dSYM /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager
+cProcessProductPackaging "/Users/mmlemon/Library/MobileDevice/Provisioning Profiles/EAEAE7F2-28CF-4BF7-A99C-34F9ED5ADEEC.mobileprovision" /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/embedded.mobileprovision
+cTouch /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent
+cCodeSign /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/arpa/inet.h
+c000000004ABDAF5B0000000000001533
+t1253945179
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/stdio.h
+c000000004ABDAF790000000000003D1D
+t1253945209
+s15645
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/stdlib.h
+c000000004ABDAF790000000000002AA4
+t1253945209
+s10916
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/string.h
+c000000004ABDAF790000000000001731
+t1253945209
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/socket.h
+c000000004ABDB4790000000000005660
+t1253946489
+s22112
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/unistd.h
+c000000004ABDAF7900000000000053FF
+t1253945209
+s21503
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.h
+c000000004B10F5BE00000000000001CF
+t1259402686
+s463
+i<UIKit/UIKit.h>
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m
+c000000004B10F5BE000000000000025C
+t1259402686
+s604
+i"PagerAppDelegate.h"
+i"PagerViewController.h"
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.h
+c000000004B10F6CC000000000000027D
+t1259402956
+s637
+i<UIKit/UIKit.h>
+i"TCPSendClient.h"
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m
+c000000004B10F6DE00000000000005D9
+t1259402974
+s1497
+i"PagerViewController.h"
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.h
+c000000004B0ED61F000000000000027F
+t1259263519
+s639
+i<Foundation/Foundation.h>
+i<stdio.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m
+c000000004B0ED55E000000000000047B
+t1259263326
+s1147
+i"TCPSendClient.h"
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/MainWindow.xib
+c000000004B10F5BE0000000000002438
+t1259402686
+s9272
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/PagerViewController.xib
+c000000004B10F61200000000000053C9
+t1259402770
+s21449
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/Pager_Prefix.pch
+c000000004B10F5BE00000000000000B3
+t1259402686
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+t1259402981
+s374
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app.dSYM
+t1259402979
+s102
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Info.plist
+t1259402974
+s622
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/MainWindow.nib
+t1259402976
+s1491
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager
+t1259402979
+s23976
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/PagerViewController.nib
+t1259402976
+s2894
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/PkgInfo
+t1259402974
+s8
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/ResourceRules.plist
+t1259402974
+s485
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/embedded.mobileprovision
+t1259402979
+s7170
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/Pager.LinkFileList
+c000000004B10F6DE0000000000000200
+t1259402974
+s512
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerAppDelegate.o
+t1259402978
+s40580
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerViewController.o
+t1259402978
+s34428
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/TCPSendClient.o
+t1259402978
+s14244
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/main.o
+t1259402978
+s6564
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent
+t1259402980
+s318
+
+N/Users/mmlemon/Documents/develop/iPhone/Pager/main.m
+c000000004B10F5BE0000000000000163
+t1259402686
+s355
+i<UIKit/UIKit.h>
+
+N/Users/mmlemon/Library/MobileDevice/Provisioning Profiles/EAEAE7F2-28CF-4BF7-A99C-34F9ED5ADEEC.mobileprovision
+c000000004AFA095F0000000000001C02
+t1257900383
+s7170
+
+N/var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch.gch
+t1259402978
+s7876792
+
+NPager-Info.plist
+c000000004B10F5BE000000000000038D
+t1259402686
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281095774#281095774#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+s281095780.034946
+e281095781.891818
+r1
+xCodeSign
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+lSLF07#2@39"CodeSign build/Debug-iphoneos/Pager.app281095780#281095781#0(0"0(0#0#76"/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app4300885448#668"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Mitsuru Takeuchi (4HH96NK6RU)" --resource-rules=/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/ResourceRules.plist --entitlements /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app0#
+
+CCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerAppDelegate.o /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281095778.521206
+e281095778.767891
+r1
+xCompileC
+xbuild/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerAppDelegate.o
+x/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m281095778#281095778#0(0"0(0#0#72"/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m4300885448#1797"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-generated-files.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-own-target-headers.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-all-target-headers.hmap -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-project-headers.hmap -F/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/include -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources/armv6 -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources -include /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch -c /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerAppDelegate.m -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerAppDelegate.o0#
+
+CCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerViewController.o /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281095778.702735
+e281095778.790894
+r1
+xCompileC
+xbuild/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerViewController.o
+x/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m281095778#281095778#0(0"0(0#0#75"/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m4300885448#1803"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-generated-files.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-own-target-headers.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-all-target-headers.hmap -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-project-headers.hmap -F/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/include -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources/armv6 -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources -include /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch -c /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/PagerViewController.m -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/PagerViewController.o0#
+
+CCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/TCPSendClient.o /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281095778.768008
+e281095778.854238
+r1
+xCompileC
+xbuild/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/TCPSendClient.o
+x/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m281095778#281095778#0(0"0(0#0#69"/Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m4300885448#1791"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-generated-files.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-own-target-headers.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-all-target-headers.hmap -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-project-headers.hmap -F/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/include -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources/armv6 -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources -include /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch -c /Users/mmlemon/Documents/develop/iPhone/Pager/Classes/TCPSendClient.m -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/TCPSendClient.o0#
+
+CCompileC build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/main.o /Users/mmlemon/Documents/develop/iPhone/Pager/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281095778.504662
+e281095778.702630
+r1
+xCompileC
+xbuild/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/main.o
+x/Users/mmlemon/Documents/develop/iPhone/Pager/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/mmlemon/Documents/develop/iPhone/Pager/main.m281095778#281095778#0(0"0(0#0#52"/Users/mmlemon/Documents/develop/iPhone/Pager/main.m4300885448#1765"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-generated-files.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-own-target-headers.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-all-target-headers.hmap -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-project-headers.hmap -F/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/include -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources/armv6 -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources -include /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch -c /Users/mmlemon/Documents/develop/iPhone/Pager/main.m -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/mmlemon/Documents/develop/iPhone/Pager/MainWindow.xib
+s281095774.453121
+e281095776.670103
+r1
+xCompileXIB
+x/Users/mmlemon/Documents/develop/iPhone/Pager/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib281095774#281095776#0(0"0(0#0#60"/Users/mmlemon/Documents/develop/iPhone/Pager/MainWindow.xib4300885448#487"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/MainWindow.nib /Users/mmlemon/Documents/develop/iPhone/Pager/MainWindow.xib0#
+
+CCompileXIB /Users/mmlemon/Documents/develop/iPhone/Pager/PagerViewController.xib
+s281095774.453852
+e281095776.688643
+r1
+xCompileXIB
+x/Users/mmlemon/Documents/develop/iPhone/Pager/PagerViewController.xib
+lSLF07#2@34"CompileXIB PagerViewController.xib281095774#281095776#0(0"0(0#0#69"/Users/mmlemon/Documents/develop/iPhone/Pager/PagerViewController.xib4300885448#505"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/PagerViewController.nib /Users/mmlemon/Documents/develop/iPhone/Pager/PagerViewController.xib0#
+
+CCpResource build/Debug-iphoneos/Pager.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s281095774.294864
+e281095774.453026
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pager.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist281095774#281095774#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#494"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app0#
+
+CGenerateDSYMFile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app.dSYM /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager
+s281095779.750616
+e281095779.901831
+r1
+xGenerateDSYMFile
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app.dSYM
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager
+lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/Pager.app.dSYM build/Debug-iphoneos/Pager.app/Pager281095779#281095779#0(0"0(0#0#82"/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager4300885448#377"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app.dSYM0#
+
+CLd /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager normal armv6
+s281095778.854324
+e281095779.750521
+r1
+xLd
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager
+xnormal
+xarmv6
+lSLF07#2@87"Link /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager281095778#281095779#0(0"0(0#0#0"4300885448#920"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -F/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -filelist /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Objects-normal/armv6/Pager.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Pager0#
+
+CProcessInfoPlistFile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Info.plist Pager-Info.plist
+s281095774.332031
+e281095774.422664
+r1
+xProcessInfoPlistFile
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Info.plist
+xPager-Info.plist
+lSLF07#2@24"Process Pager-Info.plist281095774#281095774#0(0"0(0#0#62"/Users/mmlemon/Documents/develop/iPhone/Pager/Pager-Info.plist4300885448#582"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pager-Info.plist -genpkginfo /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/ResourceRules.plist -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/Info.plist0#
+
+CProcessPCH /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch.gch Pager_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281095776.688850
+e281095778.504527
+r1
+xProcessPCH
+x/var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch.gch
+xPager_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Pager_Prefix.pch281095776#281095778#0(0"0(0#0#62"/Users/mmlemon/Documents/develop/iPhone/Pager/Pager_Prefix.pch4300885448#1658"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-generated-files.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-own-target-headers.hmap -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-all-target-headers.hmap -iquote /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager-project-headers.hmap -F/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/include -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources/armv6 -I/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/DerivedSources -c /Users/mmlemon/Documents/develop/iPhone/Pager/Pager_Prefix.pch -o /var/folders/yt/ytrYuW-kFeu0bUmJA2vW-U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pager_Prefix-cduvcjmpbjytqsbdxtvhrzmtwbqs/Pager_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/mmlemon/Library/MobileDevice/Provisioning Profiles/EAEAE7F2-28CF-4BF7-A99C-34F9ED5ADEEC.mobileprovision" /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/embedded.mobileprovision
+s281095779.901929
+e281095779.956649
+r1
+xProcessProductPackaging
+x/Users/mmlemon/Library/MobileDevice/Provisioning Profiles/EAEAE7F2-28CF-4BF7-A99C-34F9ED5ADEEC.mobileprovision
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/mmlemon/Library/MobileDevice/Provisioning Profiles/EAEAE7F2-28CF-4BF7-A99C-34F9ED5ADEEC.mobileprovision" build/Debug-iphoneos/Pager.app/embedded.mobileprovision281095779#281095779#0(0"0(0#0#101"/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/embedded.mobileprovision4300885448#437"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mmlemon/Library/MobileDevice/Provisioning Profiles/EAEAE7F2-28CF-4BF7-A99C-34F9ED5ADEEC.mobileprovision" -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent
+s281095779.994135
+e281095780.034877
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent
+lSLF07#2@171"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent281095779#281095780#0(0"0(0#0#102"/Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent4300885448#442"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/mmlemon/Documents/develop/iPhone/Pager/build/Pager.build/Debug-iphoneos/Pager.build/Pager.xcent0#
+
+CTouch /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+s281095779.956716
+e281095779.994050
+r1
+xTouch
+x/Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app
+lSLF07#2@82"Touch /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app281095779#281095779#0(0"0(0#0#0"4300885448#276"    cd /Users/mmlemon/Documents/develop/iPhone/Pager    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mmlemon/Documents/develop/iPhone/Pager/build/Debug-iphoneos/Pager.app0#
+
